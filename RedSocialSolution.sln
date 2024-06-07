@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedSocial", "RedSocial\RedSocial.csproj", "{98B05576-0D33-4BF8-9578-0D6FE16E7911}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedSocial.Tests", "RedSocial.Tests\RedSocial.Tests.csproj", "{1AD36DED-99F1-4400-A96E-F40582511B24}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedSocial.ConsoleApp", "RedSocial.ConsoleApp\RedSocial.ConsoleApp.csproj", "{6A26082C-F65D-4AD0-89C1-EAB252535EA1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{98B05576-0D33-4BF8-9578-0D6FE16E7911}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98B05576-0D33-4BF8-9578-0D6FE16E7911}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98B05576-0D33-4BF8-9578-0D6FE16E7911}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98B05576-0D33-4BF8-9578-0D6FE16E7911}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1AD36DED-99F1-4400-A96E-F40582511B24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AD36DED-99F1-4400-A96E-F40582511B24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AD36DED-99F1-4400-A96E-F40582511B24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AD36DED-99F1-4400-A96E-F40582511B24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A26082C-F65D-4AD0-89C1-EAB252535EA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A26082C-F65D-4AD0-89C1-EAB252535EA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A26082C-F65D-4AD0-89C1-EAB252535EA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A26082C-F65D-4AD0-89C1-EAB252535EA1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

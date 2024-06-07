@@ -1,0 +1,65 @@
+[
+  {
+    "ContainingType": "RedSocial.Controllers.SocialNetworkController",
+    "Method": "GetDashboard",
+    "RelativePath": "api/SocialNetwork/dashboard",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "username",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RedSocial.Controllers.SocialNetworkController",
+    "Method": "FollowUser",
+    "RelativePath": "api/SocialNetwork/follow",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "followerUsername",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "followeeUsername",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RedSocial.Controllers.SocialNetworkController",
+    "Method": "PostMessage",
+    "RelativePath": "api/SocialNetwork/post",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "username",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "content",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "timestamp",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
